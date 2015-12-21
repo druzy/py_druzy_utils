@@ -1,4 +1,5 @@
-# coding: utf-8
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 '''
 Created on 21 déc. 2015
 
@@ -14,7 +15,7 @@ class Version(list):
     def __init__(self, version="1"):
         '''
         Construct this object
-        
+    
         -version : a int or a string
         '''
         if isinstance(version, int):
@@ -22,6 +23,8 @@ class Version(list):
         
         else:
             list.__init__(self,version.split("."))
+            
+        
             
     def __repr__(self):
         ret=""

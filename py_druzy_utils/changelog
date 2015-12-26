@@ -1,1 +1,3 @@
-Version v1
+Network utils v1:
+	dépendance : netifaces
+	ajout de get_local_ip()

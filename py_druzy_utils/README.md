@@ -1,3 +1,5 @@
 Bibliothèque sous licence MIT
 
-Outils pour gérer les versions des modules
+Outils conçu par Jonathan Le Greneur
+
+dépendance : netifaces
